@@ -1,0 +1,3 @@
+I love to code. I would like to explore and try new things. Recently, I found Svelte and feel it is very easy to learn and have short learning curve. So, in my free time I try and build a blog website ["Cikgu Kereta"](https://cikgukereta.my/) using Sveltekit even though it still in Beta stage. I'm not really involve with frontend development but I do feel simple, easy and pleasant building web-app with Sveltekit.
+
+I'm experienced with the following technologies...
