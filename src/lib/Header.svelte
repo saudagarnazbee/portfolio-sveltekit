@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   // I want smooth scrolling
   function scrollToElement(event: { preventDefault: () => void; currentTarget: any }) {
     event.preventDefault();
@@ -19,7 +20,7 @@
   style="background-color: rgb(247, 247, 232);"
 >
   <div class="mx-auto flex h-full max-w-5xl items-center justify-between px-4">
-    <a href="/"><h2 class="text-xl font-bold">Nazrin Zulkifli</h2></a>
+    <a href="{base}/"><h2 class="text-xl font-bold">Nazrin Zulkifli</h2></a>
     <nav>
       <ul class="flex gap-x-4 text-xs">
         <li class="hidden md:flex">

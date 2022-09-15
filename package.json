@@ -10,7 +10,7 @@
     "check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write .",
-    "deploy": "node ./gh-pages.js",
+    "deploy": "npm run build && gh-pages -d build -t",
     "clean": "trash build"
   },
   "devDependencies": {

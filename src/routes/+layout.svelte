@@ -2,9 +2,6 @@
   import Header from '$lib/Header.svelte';
   import Footer from '$lib/Footer.svelte';
   import '../app.css';
-
-  export const prerender = true;
-  export const ssr = false;
 </script>
 
 <div class="dark h-screen justify-between overflow-y-scroll font-mono">

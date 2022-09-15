@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { assets } from '$app/paths';
+
   import Development from '$lib/components/Development/Development.svelte';
   import LinkedInIcon from '$lib/brands/linkedin.svg';
   import GithubIcon from '$lib/brands/github.svg';
@@ -46,7 +48,7 @@
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/lottie/malaysia-flag.json' // the path to the animation json
+        path: `${assets}/lottie/malaysia-flag.json` // the path to the animation json
       });
     }
 
@@ -56,7 +58,7 @@
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/lottie/developer-yoga.json' // the path to the animation json
+        path: `${assets}/lottie/developer-yoga.json` // the path to the animation json
       });
     }
 
