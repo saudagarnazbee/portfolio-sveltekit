@@ -6,14 +6,14 @@ const dev = process.env.NODE_ENV === 'development';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   preprocess: [preprocess({ postcss: true })],
-  prerendered: {
-    default: true
-  },
+
   kit: {
     adapter: adapter({
       pages: 'build',
       assets: 'build',
-      fallback: '/200.html'
+      fallback: '/200.html',
+      // fallback: null,
+      precompress: false
     }),
     paths: {
       // assets: '/portfolio-sveltekit'
