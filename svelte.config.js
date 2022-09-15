@@ -17,7 +17,7 @@ const config = {
     }),
     paths: {
       // assets: '/portfolio-sveltekit'
-      // base: dev ? '' : '/portfolio-sveltekit'
+      base: dev ? '' : '/portfolio-sveltekit'
     }
   }
 };
