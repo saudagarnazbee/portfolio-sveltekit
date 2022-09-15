@@ -4,9 +4,9 @@ publish(
   'build', // path to build directory
   {
     branch: 'gh-pages',
-    repo: '', // Update to point to your repository
+    repo: 'https://github.com/saudagarnazbee/portfolio-sveltekit', // Update to point to your repository
     user: {
-      name: 'Saudagar Nazbee', // update to use your name
+      name: 'Nazrin Zulkifli', // update to use your name
       email: 'saudagar.nazbee@gmail.com' // Update to use your email
     },
     dotfiles: true
