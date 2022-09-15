@@ -1,12 +1,4 @@
 {
-  "src/lib/brands/github.svg": {
-    "file": "_app/immutable/chunks/github-6e3d3873.js",
-    "src": "src/lib/brands/github.svg",
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-ffab37ce.js"
-    ]
-  },
   "src/lib/brands/linkedin.svg": {
     "file": "_app/immutable/chunks/linkedin-b4070736.js",
     "src": "src/lib/brands/linkedin.svg",
@@ -15,9 +7,9 @@
       "_index-ffab37ce.js"
     ]
   },
-  "src/lib/brands/laravel.svg": {
-    "file": "_app/immutable/chunks/laravel-01afc2fd.js",
-    "src": "src/lib/brands/laravel.svg",
+  "src/lib/brands/github.svg": {
+    "file": "_app/immutable/chunks/github-6e3d3873.js",
+    "src": "src/lib/brands/github.svg",
     "isDynamicEntry": true,
     "imports": [
       "_index-ffab37ce.js"
@@ -31,9 +23,9 @@
       "_index-ffab37ce.js"
     ]
   },
-  "src/lib/brands/tailwindcss.svg": {
-    "file": "_app/immutable/chunks/tailwindcss-9bf112fb.js",
-    "src": "src/lib/brands/tailwindcss.svg",
+  "src/lib/brands/laravel.svg": {
+    "file": "_app/immutable/chunks/laravel-01afc2fd.js",
+    "src": "src/lib/brands/laravel.svg",
     "isDynamicEntry": true,
     "imports": [
       "_index-ffab37ce.js"
@@ -42,6 +34,22 @@
   "src/lib/brands/yii.svg": {
     "file": "_app/immutable/chunks/yii-e7396f21.js",
     "src": "src/lib/brands/yii.svg",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-ffab37ce.js"
+    ]
+  },
+  "src/lib/brands/tailwindcss.svg": {
+    "file": "_app/immutable/chunks/tailwindcss-9bf112fb.js",
+    "src": "src/lib/brands/tailwindcss.svg",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-ffab37ce.js"
+    ]
+  },
+  "src/lib/brands/bootstrap.svg": {
+    "file": "_app/immutable/chunks/bootstrap-d02e480f.js",
+    "src": "src/lib/brands/bootstrap.svg",
     "isDynamicEntry": true,
     "imports": [
       "_index-ffab37ce.js"
@@ -58,14 +66,6 @@
   "src/lib/brands/javascript.svg": {
     "file": "_app/immutable/chunks/javascript-238dd89b.js",
     "src": "src/lib/brands/javascript.svg",
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-ffab37ce.js"
-    ]
-  },
-  "src/lib/brands/bootstrap.svg": {
-    "file": "_app/immutable/chunks/bootstrap-d02e480f.js",
-    "src": "src/lib/brands/bootstrap.svg",
     "isDynamicEntry": true,
     "imports": [
       "_index-ffab37ce.js"
@@ -104,13 +104,13 @@
     "src": "cikgukereta.avif"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-b28a2da5.js",
+    "file": "_app/immutable/start-bd1e5808.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_preload-helper-aa6bc0ce.js",
       "_index-ffab37ce.js",
-      "_singletons-983ce607.js"
+      "_singletons-ff9444f4.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -135,12 +135,12 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-4276ce3b.js",
+    "file": "_app/immutable/components/error.svelte-12570263.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-ffab37ce.js",
-      "_singletons-983ce607.js"
+      "_singletons-ff9444f4.js"
     ]
   },
   "src/routes/+page.svelte": {
@@ -176,8 +176,8 @@
       "_app/immutable/assets/_page-65e4adf7.css"
     ]
   },
-  "_singletons-983ce607.js": {
-    "file": "_app/immutable/chunks/singletons-983ce607.js",
+  "_singletons-ff9444f4.js": {
+    "file": "_app/immutable/chunks/singletons-ff9444f4.js",
     "imports": [
       "_index-ffab37ce.js"
     ]
@@ -197,7 +197,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-5acf901f.js",
+    "file": "_app/immutable/chunks/1-84f44185.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
