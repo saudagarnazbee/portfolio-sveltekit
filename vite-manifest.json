@@ -63,17 +63,17 @@
       "_paths-c5490b7f.js"
     ]
   },
-  "src/lib/brands/javascript.svg": {
-    "file": "_app/immutable/chunks/javascript-214a8bcb.js",
-    "src": "src/lib/brands/javascript.svg",
+  "src/lib/brands/php.svg": {
+    "file": "_app/immutable/chunks/php-95d94d8a.js",
+    "src": "src/lib/brands/php.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-c5490b7f.js"
     ]
   },
-  "src/lib/brands/php.svg": {
-    "file": "_app/immutable/chunks/php-95d94d8a.js",
-    "src": "src/lib/brands/php.svg",
+  "src/lib/brands/javascript.svg": {
+    "file": "_app/immutable/chunks/javascript-214a8bcb.js",
+    "src": "src/lib/brands/javascript.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-c5490b7f.js"
@@ -87,6 +87,10 @@
     "file": "_app/immutable/assets/naz-3fd463f1.png",
     "src": "naz.png"
   },
+  "naz.avif": {
+    "file": "_app/immutable/assets/naz-9f6c8bc1.avif",
+    "src": "naz.avif"
+  },
   "cikgukereta.png": {
     "file": "_app/immutable/assets/cikgukereta-9e2505b5.png",
     "src": "cikgukereta.png"
@@ -95,22 +99,18 @@
     "file": "_app/immutable/assets/cikgukereta-6d79d014.webp",
     "src": "cikgukereta.webp"
   },
-  "naz.avif": {
-    "file": "_app/immutable/assets/naz-9f6c8bc1.avif",
-    "src": "naz.avif"
-  },
   "cikgukereta.avif": {
     "file": "_app/immutable/assets/cikgukereta-e8f164b3.avif",
     "src": "cikgukereta.avif"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-f3b01af8.js",
+    "file": "_app/immutable/start-0f4a9405.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_preload-helper-aa6bc0ce.js",
       "_paths-c5490b7f.js",
-      "_singletons-e0327d64.js"
+      "_singletons-62fb58ea.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -135,12 +135,12 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-9225290d.js",
+    "file": "_app/immutable/components/error.svelte-bc83ccfc.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_paths-c5490b7f.js",
-      "_singletons-e0327d64.js"
+      "_singletons-62fb58ea.js"
     ]
   },
   "src/routes/+page.svelte": {
@@ -184,8 +184,8 @@
       "__layout-244212a4.js"
     ]
   },
-  "_singletons-e0327d64.js": {
-    "file": "_app/immutable/chunks/singletons-e0327d64.js",
+  "_singletons-62fb58ea.js": {
+    "file": "_app/immutable/chunks/singletons-62fb58ea.js",
     "imports": [
       "_paths-c5490b7f.js"
     ]
@@ -209,7 +209,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-b76fb5ec.js",
+    "file": "_app/immutable/chunks/1-9fbd163b.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -319,12 +319,12 @@
     "src": "src/lib/images/cikgukereta.png?width=1344;672;336&format=webp&srcset&imagetools",
     "isDynamicEntry": true
   },
-  "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-65e4adf7.css",
-    "src": "src/routes/+page.css"
-  },
   "src/routes/+layout.css": {
     "file": "_app/immutable/assets/_layout-4dfeb148.css",
     "src": "src/routes/+layout.css"
+  },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-65e4adf7.css",
+    "src": "src/routes/+page.css"
   }
 }
