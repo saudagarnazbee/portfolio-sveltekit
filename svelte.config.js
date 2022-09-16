@@ -15,7 +15,7 @@ const config = {
       precompress: false
     }),
     paths: {
-      base: dev ? '' : '/portfolio-sveltekit'
+      // base: dev ? '' : '/portfolio-sveltekit'
     },
     prerender: {
       crawl: true,

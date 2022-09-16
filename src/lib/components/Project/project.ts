@@ -11,7 +11,29 @@ export const projects = [
       ).default
     },
     pageUrl: 'https://cikgukereta.my/',
-    description: `A blog website build by using <a rel="noopener noreferrer" class="text-red-500 hover:underline" href="https://kit.svelte.dev/">Sveltekit</a>, headless cms by <a class="text-red-500 hover:underline" rel="noopener noreferrer" href="https://prismic.io/">Prismic</a> and powered by <a rel="noopener noreferrer" class="text-red-500 hover:underline" href="https://m.do.co/c/578f07b75e9b">DigitalOcean</a>. This website is to promote a content about tips, review, technology and repairing cars.`,
+    description: `A blog website built with
+    <a
+      rel="noopener noreferrer"
+      class="text-red-500 hover:underline"
+      target="_blank"
+      href="https://kit.svelte.dev/">
+        Sveltekit</a>,
+    <a
+      target="_blank"
+      class="text-red-500 hover:underline"
+      rel="noopener noreferrer"
+      href="https://prismic.io/">
+      Prismic's
+    </a>
+    headless CMS, and
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-red-500 hover:underline"
+      href="https://m.do.co/c/578f07b75e9b">
+      DigitalOcean
+    </a>
+    hosting. This website will promote content about tips, reviews, technology, and car repair.`,
     techs: ['Tailwind', 'Sveltekit']
   }
 ];

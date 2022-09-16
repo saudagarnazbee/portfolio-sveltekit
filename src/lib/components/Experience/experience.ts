@@ -7,7 +7,7 @@ export const experiences = [
     role: 'Data Engineer',
     techs: ['python', 'AWS', 'plotly', 'jupyter notebook'],
     description:
-      'Kestrl is make an app that helps to Budget, Save and Invest in line with their values. I change my position from Backend Developer to Data Engineer.'
+      'Kestrl creates an app to assist users with budgeting, saving, and investing according to their principles. I switch from being a backend developer to being a data engineer.'
   },
   {
     name: 'Kestrl Tech',
@@ -16,7 +16,7 @@ export const experiences = [
     role: 'Backend Developer',
     techs: ['PHP', 'Laravel', 'AWS'],
     description:
-      'Kestrl is make an app that helps to Budget, Save and Invest in line with their values. My main role is to develop an API for frontend App.'
+      'Kestrl is developing an app that will assist users in budgeting, saving, and investing in accordance with their values. My primary responsibility is to create an API for a frontend app.'
   },
   {
     name: 'Hermo Creative Sdn Bhd',
@@ -25,7 +25,7 @@ export const experiences = [
     role: 'Programmer',
     techs: ['PHP', 'Laravel', 'AWS', 'Yii2', 'React', 'AngularJS'],
     description:
-      'Hermo is an online marketplace for buying beauty products. My main role is to write and maintain API for web and mobile Application'
+      'Hermo is an internet store where consumers may purchase cosmetics. My primary responsibility is to create and maintain APIs for web and mobile applications.'
   },
   {
     name: 'Gates IT Solution Sdn Bhd',
@@ -34,6 +34,6 @@ export const experiences = [
     role: 'System Analyst Programer',
     techs: ['PHP', 'Laravel', 'Vanilla PHP', 'Javascript', 'JQuery', 'Java'],
     description:
-      'Gates IT Solution is a software house. My main role here is to write and maintain for applications as a full-stack developer.'
+      'Gates IT Solution is a software development company. As a full-stack developer, my major role is to write and maintain applications.'
   }
 ];
