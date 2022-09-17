@@ -68,6 +68,8 @@
 
 <svelte:head>
   <title>Nazrin Zulkifli</title>
+  <meta name="description" content="Nazrin Zulkifli's portfolio website" />
+  <meta name="keywords" content="Portfolio, Developer, Back-end, Data Engineer, Nazrin Zulkifli" />
 </svelte:head>
 
 <div
