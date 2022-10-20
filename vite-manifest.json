@@ -1,6 +1,6 @@
 {
   "src/lib/brands/linkedin.svg": {
-    "file": "_app/immutable/chunks/linkedin-901d2e33.js",
+    "file": "_app/immutable/chunks/linkedin-deaafcfc.js",
     "src": "src/lib/brands/linkedin.svg",
     "isDynamicEntry": true,
     "imports": [
@@ -8,31 +8,31 @@
     ]
   },
   "src/lib/brands/github.svg": {
-    "file": "_app/immutable/chunks/github-50ee1a63.js",
+    "file": "_app/immutable/chunks/github-edf8d44d.js",
     "src": "src/lib/brands/github.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-f6d918ae.js"
     ]
   },
-  "src/lib/brands/laravel.svg": {
-    "file": "_app/immutable/chunks/laravel-0fc594ef.js",
-    "src": "src/lib/brands/laravel.svg",
-    "isDynamicEntry": true,
-    "imports": [
-      "_paths-f6d918ae.js"
-    ]
-  },
   "src/lib/brands/svelte.svg": {
-    "file": "_app/immutable/chunks/svelte-84a20c39.js",
+    "file": "_app/immutable/chunks/svelte-cb44a29b.js",
     "src": "src/lib/brands/svelte.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-f6d918ae.js"
     ]
   },
+  "src/lib/brands/laravel.svg": {
+    "file": "_app/immutable/chunks/laravel-db173376.js",
+    "src": "src/lib/brands/laravel.svg",
+    "isDynamicEntry": true,
+    "imports": [
+      "_paths-f6d918ae.js"
+    ]
+  },
   "src/lib/brands/yii.svg": {
-    "file": "_app/immutable/chunks/yii-526c8e5a.js",
+    "file": "_app/immutable/chunks/yii-4f1278af.js",
     "src": "src/lib/brands/yii.svg",
     "isDynamicEntry": true,
     "imports": [
@@ -40,7 +40,7 @@
     ]
   },
   "src/lib/brands/tailwindcss.svg": {
-    "file": "_app/immutable/chunks/tailwindcss-da72eb72.js",
+    "file": "_app/immutable/chunks/tailwindcss-aa8f3a61.js",
     "src": "src/lib/brands/tailwindcss.svg",
     "isDynamicEntry": true,
     "imports": [
@@ -48,7 +48,7 @@
     ]
   },
   "src/lib/brands/bootstrap.svg": {
-    "file": "_app/immutable/chunks/bootstrap-66f6ff25.js",
+    "file": "_app/immutable/chunks/bootstrap-2ad43053.js",
     "src": "src/lib/brands/bootstrap.svg",
     "isDynamicEntry": true,
     "imports": [
@@ -56,24 +56,24 @@
     ]
   },
   "src/lib/brands/typescript.svg": {
-    "file": "_app/immutable/chunks/typescript-a7d1e9aa.js",
+    "file": "_app/immutable/chunks/typescript-1dcbb990.js",
     "src": "src/lib/brands/typescript.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-f6d918ae.js"
     ]
   },
-  "src/lib/brands/php.svg": {
-    "file": "_app/immutable/chunks/php-167d9673.js",
-    "src": "src/lib/brands/php.svg",
+  "src/lib/brands/javascript.svg": {
+    "file": "_app/immutable/chunks/javascript-2086995e.js",
+    "src": "src/lib/brands/javascript.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-f6d918ae.js"
     ]
   },
-  "src/lib/brands/javascript.svg": {
-    "file": "_app/immutable/chunks/javascript-405e1c6a.js",
-    "src": "src/lib/brands/javascript.svg",
+  "src/lib/brands/php.svg": {
+    "file": "_app/immutable/chunks/php-487c338a.js",
+    "src": "src/lib/brands/php.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-f6d918ae.js"
@@ -104,12 +104,12 @@
     "src": "cikgukereta.avif"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-c055fdc7.js",
+    "file": "_app/immutable/start-b7066677.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_paths-f6d918ae.js",
-      "_singletons-94c37513.js",
+      "_singletons-95b70384.js",
       "_preload-helper-aa6bc0ce.js"
     ],
     "dynamicImports": [
@@ -119,7 +119,7 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-32a6296c.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-e326de1b.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
@@ -131,20 +131,20 @@
       "src/lib/brands/github.svg"
     ],
     "css": [
-      "_app/immutable/assets/_layout-342a7603.css"
+      "_app/immutable/assets/_layout-5696df36.css"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-497f2a40.js",
+    "file": "_app/immutable/components/error.svelte-31940f04.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_paths-f6d918ae.js",
-      "_singletons-94c37513.js"
+      "_singletons-95b70384.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-85ccb79b.js",
+    "file": "_app/immutable/components/pages/_page.svelte-57528461.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -194,8 +194,8 @@
       "__layout-244212a4.js"
     ]
   },
-  "_singletons-94c37513.js": {
-    "file": "_app/immutable/chunks/singletons-94c37513.js",
+  "_singletons-95b70384.js": {
+    "file": "_app/immutable/chunks/singletons-95b70384.js",
     "imports": [
       "_paths-f6d918ae.js"
     ]
@@ -210,7 +210,7 @@
     "file": "_app/immutable/chunks/_layout-244212a4.js"
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-620136e2.js",
+    "file": "_app/immutable/chunks/0-5f532127.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -219,7 +219,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-8ccf13c0.js",
+    "file": "_app/immutable/chunks/1-96bd4dac.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -227,7 +227,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-a7455942.js",
+    "file": "_app/immutable/chunks/2-5b8d4ef9.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -344,7 +344,7 @@
     ]
   },
   "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-342a7603.css",
+    "file": "_app/immutable/assets/_layout-5696df36.css",
     "src": "src/routes/+layout.css"
   },
   "src/routes/+page.css": {
