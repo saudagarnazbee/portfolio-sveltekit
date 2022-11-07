@@ -20,7 +20,7 @@ const config = {
     prerender: {
       crawl: true,
       enabled: true,
-      onError: 'fail'
+      handleHttpError: 'fail'
     },
     trailingSlash: 'always'
   }
