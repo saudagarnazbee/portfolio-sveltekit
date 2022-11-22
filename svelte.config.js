@@ -21,8 +21,7 @@ const config = {
       crawl: true,
       enabled: true,
       handleHttpError: 'fail'
-    },
-    trailingSlash: 'always'
+    }
   }
 };
 
