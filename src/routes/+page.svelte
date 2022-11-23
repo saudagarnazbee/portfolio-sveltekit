@@ -5,7 +5,7 @@
   import LinkedInIcon from '$lib/brands/linkedin.svg';
   import GithubIcon from '$lib/brands/github.svg';
   import { onMount } from 'svelte';
-  import lottie from 'lottie-web';
+  import lottie, { type AnimationItem } from 'lottie-web';
   import meImage from '$lib/images/naz.png?w=200&h=200&format=jpeg;&imagetools';
   import meImageSrcsetWebp from '$lib/images/naz.png?width=1344;672;336&srcset&imagetools';
   import meImageSrcsetAvif from '$lib/images/naz.png?width=1344;672;336&format=avif&srcset&imagetools';
@@ -41,9 +41,12 @@
   let malaysiaContainer: HTMLElement;
 
   onMount(() => {
+    let yogaAnimation: AnimationItem;
+    let malaysiaAnimation: AnimationItem;
+
     if (happyMalaysiaDay && malaysiaContainer) {
       introText = 'Happy Malaysia Day!';
-      lottie.loadAnimation({
+      malaysiaAnimation = lottie.loadAnimation({
         container: malaysiaContainer, // the dom element that will contain the animation
         renderer: 'svg',
         loop: true,
@@ -53,7 +56,7 @@
     }
 
     if (yogaContainer) {
-      lottie.loadAnimation({
+      yogaAnimation = lottie.loadAnimation({
         container: yogaContainer, // the dom element that will contain the animation
         renderer: 'svg',
         loop: true,
@@ -62,7 +65,15 @@
       });
     }
 
-    return;
+    return () => {
+      if (malaysiaContainer) {
+        malaysiaAnimation.destroy();
+      }
+
+      if (yogaContainer) {
+        yogaAnimation.destroy();
+      }
+    };
   });
 </script>
 
