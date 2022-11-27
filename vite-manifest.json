@@ -15,17 +15,17 @@
       "_paths-8476dfd3.js"
     ]
   },
-  "src/lib/brands/laravel.svg": {
-    "file": "_app/immutable/chunks/laravel-5cc6b60c.js",
-    "src": "src/lib/brands/laravel.svg",
+  "src/lib/brands/svelte.svg": {
+    "file": "_app/immutable/chunks/svelte-92209e51.js",
+    "src": "src/lib/brands/svelte.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-8476dfd3.js"
     ]
   },
-  "src/lib/brands/svelte.svg": {
-    "file": "_app/immutable/chunks/svelte-92209e51.js",
-    "src": "src/lib/brands/svelte.svg",
+  "src/lib/brands/laravel.svg": {
+    "file": "_app/immutable/chunks/laravel-5cc6b60c.js",
+    "src": "src/lib/brands/laravel.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-8476dfd3.js"
@@ -47,17 +47,17 @@
       "_paths-8476dfd3.js"
     ]
   },
-  "src/lib/brands/typescript.svg": {
-    "file": "_app/immutable/chunks/typescript-846c6172.js",
-    "src": "src/lib/brands/typescript.svg",
+  "src/lib/brands/bootstrap.svg": {
+    "file": "_app/immutable/chunks/bootstrap-3144d978.js",
+    "src": "src/lib/brands/bootstrap.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-8476dfd3.js"
     ]
   },
-  "src/lib/brands/bootstrap.svg": {
-    "file": "_app/immutable/chunks/bootstrap-3144d978.js",
-    "src": "src/lib/brands/bootstrap.svg",
+  "src/lib/brands/typescript.svg": {
+    "file": "_app/immutable/chunks/typescript-846c6172.js",
+    "src": "src/lib/brands/typescript.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-8476dfd3.js"
@@ -104,7 +104,7 @@
     "src": "cikgukereta.avif"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-295842da.js",
+    "file": "_app/immutable/start-a04c5910.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
