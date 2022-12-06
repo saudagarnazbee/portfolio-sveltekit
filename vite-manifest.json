@@ -15,14 +15,6 @@
       "_paths-8476dfd3.js"
     ]
   },
-  "src/lib/brands/yii.svg": {
-    "file": "_app/immutable/chunks/yii-954018d0.js",
-    "src": "src/lib/brands/yii.svg",
-    "isDynamicEntry": true,
-    "imports": [
-      "_paths-8476dfd3.js"
-    ]
-  },
   "src/lib/brands/svelte.svg": {
     "file": "_app/immutable/chunks/svelte-92209e51.js",
     "src": "src/lib/brands/svelte.svg",
@@ -39,6 +31,14 @@
       "_paths-8476dfd3.js"
     ]
   },
+  "src/lib/brands/yii.svg": {
+    "file": "_app/immutable/chunks/yii-954018d0.js",
+    "src": "src/lib/brands/yii.svg",
+    "isDynamicEntry": true,
+    "imports": [
+      "_paths-8476dfd3.js"
+    ]
+  },
   "src/lib/brands/tailwindcss.svg": {
     "file": "_app/immutable/chunks/tailwindcss-ce484726.js",
     "src": "src/lib/brands/tailwindcss.svg",
@@ -47,17 +47,17 @@
       "_paths-8476dfd3.js"
     ]
   },
-  "src/lib/brands/typescript.svg": {
-    "file": "_app/immutable/chunks/typescript-846c6172.js",
-    "src": "src/lib/brands/typescript.svg",
+  "src/lib/brands/bootstrap.svg": {
+    "file": "_app/immutable/chunks/bootstrap-3144d978.js",
+    "src": "src/lib/brands/bootstrap.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-8476dfd3.js"
     ]
   },
-  "src/lib/brands/bootstrap.svg": {
-    "file": "_app/immutable/chunks/bootstrap-3144d978.js",
-    "src": "src/lib/brands/bootstrap.svg",
+  "src/lib/brands/typescript.svg": {
+    "file": "_app/immutable/chunks/typescript-846c6172.js",
+    "src": "src/lib/brands/typescript.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-8476dfd3.js"
@@ -104,12 +104,12 @@
     "src": "cikgukereta.avif"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-1a7cf0a3.js",
+    "file": "_app/immutable/start-94628120.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_paths-8476dfd3.js",
-      "_singletons-bc575bb3.js",
+      "_singletons-c6e77f73.js",
       "_preload-helper-9b728935.js"
     ],
     "dynamicImports": [
@@ -135,16 +135,16 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-e8297a18.js",
+    "file": "_app/immutable/components/error.svelte-ee1ef63c.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_paths-8476dfd3.js",
-      "_singletons-bc575bb3.js"
+      "_singletons-c6e77f73.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-99178877.js",
+    "file": "_app/immutable/components/pages/_page.svelte-095600db.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -194,8 +194,8 @@
       "__layout-244212a4.js"
     ]
   },
-  "_singletons-bc575bb3.js": {
-    "file": "_app/immutable/chunks/singletons-bc575bb3.js",
+  "_singletons-c6e77f73.js": {
+    "file": "_app/immutable/chunks/singletons-c6e77f73.js",
     "imports": [
       "_paths-8476dfd3.js"
     ]
@@ -219,7 +219,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-a2652542.js",
+    "file": "_app/immutable/chunks/1-8288e6ef.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -227,7 +227,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-d21e67f3.js",
+    "file": "_app/immutable/chunks/2-13bb519f.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -343,12 +343,12 @@
       "_app/immutable/assets/cikgukereta-6d79d014.webp"
     ]
   },
-  "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-464fb901.css",
-    "src": "src/routes/+page.css"
-  },
   "src/routes/+layout.css": {
     "file": "_app/immutable/assets/_layout-4668b8a0.css",
     "src": "src/routes/+layout.css"
+  },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-464fb901.css",
+    "src": "src/routes/+page.css"
   }
 }
