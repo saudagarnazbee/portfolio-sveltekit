@@ -30,16 +30,16 @@ export const projects = [
       target="_blank"
       class="text-red-500 hover:underline"
       rel="noopener noreferrer"
-      href="https://prismic.io/">
+      href="https://supabase.com/">
       Supabase's
-    </a> Postgres database with Storage,
+    </a>,
     <a
       target="_blank"
       class="text-red-500 hover:underline"
       rel="noopener noreferrer"
-      href="https://supabase.com/">
+      href="https://www.prisma.io/">
       Prisma
-    </a> an ORM, and
+    </a>, and
     <a
       target="_blank"
       rel="noopener noreferrer"
