@@ -1,15 +1,15 @@
 {
-  "src/lib/brands/github.svg": {
-    "file": "_app/immutable/chunks/github-34533889.js",
-    "src": "src/lib/brands/github.svg",
+  "src/lib/brands/linkedin.svg": {
+    "file": "_app/immutable/chunks/linkedin-ddb79f0d.js",
+    "src": "src/lib/brands/linkedin.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-8476dfd3.js"
     ]
   },
-  "src/lib/brands/linkedin.svg": {
-    "file": "_app/immutable/chunks/linkedin-ddb79f0d.js",
-    "src": "src/lib/brands/linkedin.svg",
+  "src/lib/brands/github.svg": {
+    "file": "_app/immutable/chunks/github-34533889.js",
+    "src": "src/lib/brands/github.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-8476dfd3.js"
@@ -31,6 +31,14 @@
       "_paths-8476dfd3.js"
     ]
   },
+  "src/lib/brands/yii.svg": {
+    "file": "_app/immutable/chunks/yii-bb5f1fd9.js",
+    "src": "src/lib/brands/yii.svg",
+    "isDynamicEntry": true,
+    "imports": [
+      "_paths-8476dfd3.js"
+    ]
+  },
   "src/lib/brands/tailwindcss.svg": {
     "file": "_app/immutable/chunks/tailwindcss-7c64153c.js",
     "src": "src/lib/brands/tailwindcss.svg",
@@ -42,14 +50,6 @@
   "src/lib/brands/bootstrap.svg": {
     "file": "_app/immutable/chunks/bootstrap-29121e8d.js",
     "src": "src/lib/brands/bootstrap.svg",
-    "isDynamicEntry": true,
-    "imports": [
-      "_paths-8476dfd3.js"
-    ]
-  },
-  "src/lib/brands/yii.svg": {
-    "file": "_app/immutable/chunks/yii-bb5f1fd9.js",
-    "src": "src/lib/brands/yii.svg",
     "isDynamicEntry": true,
     "imports": [
       "_paths-8476dfd3.js"
