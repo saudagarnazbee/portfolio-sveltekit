@@ -25,7 +25,21 @@ export const projects = [
       href="https://prismic.io/">
       Prismic's
     </a>
-    headless CMS, and
+    headless CMS,
+    <a
+      target="_blank"
+      class="text-red-500 hover:underline"
+      rel="noopener noreferrer"
+      href="https://prismic.io/">
+      Supabase's
+    </a> Postgres database with Storage,
+    <a
+      target="_blank"
+      class="text-red-500 hover:underline"
+      rel="noopener noreferrer"
+      href="https://supabase.com/">
+      Prisma
+    </a> an ORM, and
     <a
       target="_blank"
       rel="noopener noreferrer"
@@ -34,6 +48,6 @@ export const projects = [
       DigitalOcean
     </a>
     hosting. This website will promote content about tips, reviews, technology, and car repair.`,
-    techs: ['Tailwind', 'Sveltekit']
+    techs: ['Tailwind', 'Sveltekit', 'prisma', 'supabase', 'digitalocean']
   }
 ];
