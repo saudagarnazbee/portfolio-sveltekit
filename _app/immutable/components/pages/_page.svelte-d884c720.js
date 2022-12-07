@@ -28,15 +28,13 @@ import{S as SvelteComponent,i as init,s as safe_not_equal,k as element,q as text
       class="text-red-500 hover:underline"
       rel="noopener noreferrer"
       href="https://supabase.com/">
-      Supabase's
-    </a>,
+      Supabase</a>,
     <a
       target="_blank"
       class="text-red-500 hover:underline"
       rel="noopener noreferrer"
       href="https://www.prisma.io/">
-      Prisma
-    </a>, and
+      Prisma</a>, and
     <a
       target="_blank"
       rel="noopener noreferrer"
