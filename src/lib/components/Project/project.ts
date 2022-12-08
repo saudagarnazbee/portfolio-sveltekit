@@ -31,15 +31,13 @@ export const projects = [
       class="text-red-500 hover:underline"
       rel="noopener noreferrer"
       href="https://supabase.com/">
-      Supabase's
-    </a>,
+      Supabase</a>,
     <a
       target="_blank"
       class="text-red-500 hover:underline"
       rel="noopener noreferrer"
       href="https://www.prisma.io/">
-      Prisma
-    </a>, and
+      Prisma</a>, and
     <a
       target="_blank"
       rel="noopener noreferrer"
