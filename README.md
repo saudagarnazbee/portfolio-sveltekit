@@ -1,3 +1,8 @@
+## My portfolio website :
+
+- Github page : https://saudagarnazbee.github.io/portfolio-sveltekit/
+- fly.io : https://nazrin.fly.dev/
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
@@ -43,8 +48,34 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
-## Discovery Package that make by Svelte
+## Deploy config
 
-I would like to try it in my next project.
+Configuration `svelte.config.js` file (using `adapter-static`):
 
-- https://svelte-lazy-loader.sawyer.codes/?ref=madewithsvelte.com
+- Deploy to `github page` example :
+
+```js
+const config = {
+  kit: {
+    adapter: adapterStatic({
+      // add paths configuration here
+      paths: {
+          base: dev ? '' : '/portfolio-sveltekit'
+      },
+  }
+};
+```
+
+- Deploy to `fly.io` example :
+
+```js
+const config = {
+  kit: {
+    adapter: adapterStatic({
+      // remove paths configuration
+      // paths: {
+      //   base: dev ? '' : '/portfolio-sveltekit'
+      // },
+  }
+};
+```
